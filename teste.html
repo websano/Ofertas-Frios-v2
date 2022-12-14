@@ -1,0 +1,10 @@
+<html>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$.getJSON("http://192.168.0.210/intra/api/consinco/produtos.php?loja=2&seq=21227", function(data) {
+			alert(data.PRECO);
+		});
+	});
+</script>
+</html>

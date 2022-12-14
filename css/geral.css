@@ -1,0 +1,4 @@
+.card{min-height: 444px !important;}
+.panel-heading{position: fixed;width: 95%;z-index: 99999;top: 0px;}
+.panel-default{margin-top:80px;}
+    
